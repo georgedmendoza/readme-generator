@@ -1,9 +1,12 @@
 // TODO: Include packages needed for this application
 const fs = require('fs')
 const inquirer = require('inquirer');
+const { writeFile } = require('../portfolio-generator/utils/generate-site');
+const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
-const questions = () => {
-    return inquirer.prompt([
+const questions = [
+
+    
         {
            type: 'input' ,
            name: 'name',
@@ -16,6 +19,19 @@ const questions = () => {
                    return false;
                }
            }
+        },
+        {
+            type: 'input',
+            name: 'Description',
+            message: 'Please provide a description for this application. (Required)',
+            validate: descriptionInput => {
+                if(descriptionInput) {
+                    return true;
+                } else{
+                    console.log('Please provide a description for this application.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
@@ -69,18 +85,37 @@ const questions = () => {
                 }
             }
         }
-    ])
-};
+    
+];
 
-questions().then( answers => console.log(answers));
+//questions().then( answers => console.log(answers));
+//questions().then( data => console.log(data));
 
 
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName,data, err => {
+        if(err){
+            // handle error
+            return console.error(err)
+        }
+        // console.log(data);
+        // console.log('File created!')
+    })
+}
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 
-// // TODO: Create a function to initialize app
-// function init() {}
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions)
+    .then(data => {
+        console.log(data);
+        console.log(data.name);
+        console.log(data.Description);
+        console.log(data.Tests);
+        writeToFile('README.md',generateMarkdown(data))
+    })
+}
 
 // // Function call to initialize app
-// init();
+ init();
