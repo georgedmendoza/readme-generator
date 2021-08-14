@@ -22,7 +22,7 @@ const questions = [
         },
         {
             type: 'input',
-            name: 'Description',
+            name: 'description',
             message: 'Please provide a description for this application. (Required)',
             validate: descriptionInput => {
                 if(descriptionInput) {
@@ -35,7 +35,7 @@ const questions = [
         },
         {
             type: 'input',
-            name: 'Installation',
+            name: 'installation',
             message: 'Provide description on how to install your project. (Required)',
             validate: installationInput => {
                 if(installationInput){
@@ -48,7 +48,7 @@ const questions = [
         },
         {
             type: 'input',
-            name: 'Usage',
+            name: 'usage',
             message: 'How is this application used? (Required)',
             validate: usageInput => {
                 if(usageInput){
@@ -61,7 +61,12 @@ const questions = [
         },
         {
             type: 'input',
-            name: 'Contributing',
+            name: 'license',
+            message: 'What licenses does this application use/include?',
+        },
+        {
+            type: 'input',
+            name: 'contributing',
             message: 'Who else contributed to develop this project? (Required)',
             validate: contributionInput => {
                 if(contributionInput){
@@ -74,7 +79,7 @@ const questions = [
         },
         {
             type: 'input',
-            name: 'Tests',
+            name: 'tests',
             message: 'How can this application be tested? (Not sure what to do here)',
             validate: testInput => {
                 if(testInput){
@@ -110,9 +115,6 @@ function init() {
     inquirer.prompt(questions)
     .then(data => {
         console.log(data);
-        console.log(data.name);
-        console.log(data.Description);
-        console.log(data.Tests);
         writeToFile('README.md',generateMarkdown(data))
     })
 }
