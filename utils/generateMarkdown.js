@@ -31,7 +31,8 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-
+  [![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  
   ## Contributing
   ${data.contributing}
 

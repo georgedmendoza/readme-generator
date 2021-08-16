@@ -60,9 +60,23 @@ const questions = [
             }
         },
         {
-            type: 'input',
+            type: 'confirm',
+            name: 'confirmLicense',
+            message: 'Would you like to add a license to your readme?',
+            default: true
+        },
+        {
+            type: 'checkbox',
             name: 'license',
-            message: 'What licenses does this application use/include?',
+            message: 'What licenses does this application use/include? (Check all that apply)',
+            choices: ['Apache','Eclipse','IBM','MIT','Mozilla','SIL'],
+            when: ({confirmLicense}) => {
+                if (confirmLicense) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
