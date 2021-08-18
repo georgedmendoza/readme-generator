@@ -63,7 +63,7 @@ function generateMarkdown(data) {
   ## Description 
   ${data.description}
 
-  [![License:${name}]${licenseBadge}]
+  ![License:${name}]${licenseBadge}
 
   ## Table of Contents
   - [Description](#description)
