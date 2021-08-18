@@ -1,21 +1,28 @@
-# ;akjsd
+# weather
 
   ## Description 
-  aslkdjfj
+  it previdect weather forecast
+
   ## Table of Contents
   - [Description](#description)
+
   ## Installation 
-  aksjdf
+  inquirer
 
   ## Usage
-  jkdf
+  to view weather
 
   ## License
-  [![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  undefined
+  Apache,Eclipse,IBM,MIT,Mozilla,SIL
   
   ## Contributing
-  asd
+  nobody
 
   ## Tests
-  sd
+  yes
+
+  ## Email
+  GitHub: https://github.com/georgedmendoza
+  Email: georgedmendoza
 

@@ -6,7 +6,32 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
 
-    
+        {
+            type: 'input' ,
+            name: 'github',
+            message: 'What is your github username? (Required)',
+            validate: githubInput =>{
+               if(githubInput){
+                   return true;
+               } else{
+                   console.log('Please enter your github usename');
+                   return false;
+               }
+           }
+        },
+        {
+            type: 'input' ,
+            name: 'email',
+            message: 'What your email? (Required)',
+            validate: emailInput =>{
+               if(emailInput){
+                   return true;
+               } else{
+                   console.log('Please enter your email');
+                   return false;
+               }
+           }
+        },
         {
            type: 'input' ,
            name: 'name',
@@ -106,9 +131,6 @@ const questions = [
         }
     
 ];
-
-//questions().then( answers => console.log(answers));
-//questions().then( data => console.log(data));
 
 
 // TODO: Create a function to write README file
