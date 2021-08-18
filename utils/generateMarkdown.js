@@ -42,9 +42,9 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
 
-  ## Email
-  GitHub: https://github.com/${data.github}
-  Email: ${data.email}
+  ## Questions
+  - GitHub: [${data.githubUser}](https://github.com/${data.githubUser})
+  - Email: ${data.email}
 
 `;
 }

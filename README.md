@@ -1,7 +1,7 @@
 # weather
 
   ## Description 
-  it previdect weather forecast
+  forecast
 
   ## Table of Contents
   - [Description](#description)
@@ -10,19 +10,19 @@
   inquirer
 
   ## Usage
-  to view weather
+  forecast
 
   ## License
   undefined
-  Apache,Eclipse,IBM,MIT,Mozilla,SIL
+  undefined
   
   ## Contributing
-  nobody
+  me
 
   ## Tests
   yes
 
-  ## Email
-  GitHub: https://github.com/georgedmendoza
-  Email: georgedmendoza
+  ## Questions
+  - GitHub: [georgedmendoza](https://github.com/georgedmendoza)
+  - Email: georgedmendoza13@gmail.com
 
