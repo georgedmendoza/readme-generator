@@ -16,14 +16,15 @@
   ## Installation 
   - Use a Termal or GitBash
   - Install Node.js and npm
-    - this is done via the folloqing command line: npm -v
+    - this is done via the following command line: npm -v
   - Use any compatible text editor
   - clone or fork this repository to desired workstation
 
   ## Usage
   start the application by calling the file index.js in either Terminal or GitBash. From there the user is asked a series of prompts and the answer is accepted/recorded when the user hits 'Enter'. Edits an be made once the file is created and then the user can manual make changes. This project is currently set up to create a README.md file in the root of the directory.
 
-  https://drive.google.com/file/d/1hLeEzqVeoh3g69Lkfwt70NsiFxyhk3v2/view?usp=sharing
+  https://drive.google.com/file/d/1t5BM1XobofcLsDZIDu6nQvTSK7q7Dlbs/view
+
 
   ## License
   - [MIT](https://opensource.org/licenses/MIT) - click to view lincense information

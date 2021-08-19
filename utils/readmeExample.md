@@ -1,6 +1,6 @@
-# Some title here   
+# title here   
   ## Description 
-  some description here
+  description here
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
@@ -13,10 +13,10 @@
   - [Questions](#questions)
 
   ## Installation 
-  npm install
+  install info
 
   ## Usage
-  n/a
+  n/
 
   ## License
   - [MIT](https://opensource.org/licenses/MIT) - click to view lincense information
@@ -28,6 +28,6 @@
   none at the moment
 
   ## Questions
-  - GitHub: [georgedmendoza](https://github.com/georgedmendoza)
-  - Email: [georgedmendoza13@gmail.com](mailto:georgedmendoza13@gmail.com)
+  - GitHub: [username](https://github.com/username)
+  - Email: [email](mailto:email)
 
