@@ -1,6 +1,6 @@
-# alskjdfhlaksdf   
+# Some title here   
   ## Description 
-  alskjdfhlkjsdf
+  some description here
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
@@ -13,21 +13,21 @@
   - [Questions](#questions)
 
   ## Installation 
-  alkjshdflasd
+  npm install
 
   ## Usage
-  laksjdfhlajksd
+  n/a
 
   ## License
-  [MIT](https://opensource.org/licenses/MIT)
+  - [MIT](https://opensource.org/licenses/MIT) - click to view lincense information
   
   ## Contributing
-  kajshdfljkasd
+  n/a
 
   ## Tests
-  alsjkdfhlkasdf
+  none at the moment
 
   ## Questions
-  - GitHub: [;alkdfalsdjfhad](https://github.com/;alkdfalsdjfhad)
-  - Email: [alksjdfhiasfd](mailto:alksjdfhiasfd)
+  - GitHub: [georgedmendoza](https://github.com/georgedmendoza)
+  - Email: [georgedmendoza13@gmail.com](mailto:georgedmendoza13@gmail.com)
 
