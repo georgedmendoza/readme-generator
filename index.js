@@ -129,7 +129,7 @@ function init() {
     .then(data => {
         // displays all data
         console.log(data);
-        writeToFile('./utils/readmeExample.md',generateMarkdown(data))
+        writeToFile('README.md',generateMarkdown(data))
     })
 }
 
