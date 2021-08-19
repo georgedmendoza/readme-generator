@@ -103,23 +103,23 @@ const questions = [
                 }
             }
         },
-        {
-            type: 'confirm',
-            name: 'testConfirm',
-            message: 'would you like to include test for this project?',
-            default: true
-        },
+        // {
+        //     type: 'confirm',
+        //     name: 'testConfirm',
+        //     message: 'would you like to include test for this project?',
+        //     default: true
+        // },
         {
             type: 'input',
             name: 'tests',
-            message: 'How can this application be tested?',
-            when: ({ testConfirm }) => {
-                if(testConfirm){
-                    return true;
-                } else{
-                    return false;
-                }
-            }
+            message: 'How can this application be tested?'
+            // when: ({ testConfirm }) => {
+            //     if(testConfirm){
+            //         return true;
+            //     } else{
+            //         return false;
+            //     }
+            // }
         }
     
 ];
