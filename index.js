@@ -10,7 +10,6 @@ const questions = [
             type: 'input' ,
             name: 'githubUser',
             message: 'What is your github username? (Required)',
-            default: 'no text',
             validate: githubUserInput =>{
                if(githubUserInput){
                    return true;
@@ -105,14 +104,19 @@ const questions = [
             }
         },
         {
+            type: 'confirm',
+            name: 'testConfirm',
+            message: 'would you like to include test for this project?',
+            default: true
+        },
+        {
             type: 'input',
             name: 'tests',
-            message: 'How can this application be tested? (Not sure what to do here)',
-            validate: testInput => {
-                if(testInput){
+            message: 'How can this application be tested?',
+            when: ({ testConfirm }) => {
+                if(testConfirm){
                     return true;
                 } else{
-                    console.log('How can this application be tested? (Not sure what to do here');
                     return false;
                 }
             }
@@ -138,7 +142,7 @@ function init() {
     .then(data => {
         // displays all data
         console.log(data);
-        writeToFile('README.md',generateMarkdown(data))
+        writeToFile('./utils/readmeExample.md',generateMarkdown(data))
     })
 }
 

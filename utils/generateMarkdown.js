@@ -37,10 +37,28 @@ function renderLicenseSection(license) {
   if(license != 'none'){
     return `## License
     
-    This application is under the ${license} license
+    This application is under the ${license} license ${new Date().getFullYear()}
     `
   }
   else{
+    return ''
+  }
+}
+
+function testLink(test) {
+  if(test){
+    return `- [Tests](#tests)`
+  }
+  else{
+    return ''
+  }
+}
+
+function testSection(test) {
+  if (test){
+    return `## Tests
+    ${test}`
+  } else{
     return ''
   }
 }
@@ -60,7 +78,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   ${renderLicenseLink(data.license)}
   - [Contributing](#contributing)
-  - [Tests](#tests)
+  ${testLink(data.tests)}
   - [Questions](#questions)
 
   ## Installation 
@@ -74,8 +92,7 @@ function generateMarkdown(data) {
   ## Contributing
   ${data.contributing}
 
-  ## Tests
-  ${data.tests}
+  ${testSection(data.tests)}
 
   ## Questions
   - GitHub: [${data.githubUser}](https://github.com/${data.githubUser})

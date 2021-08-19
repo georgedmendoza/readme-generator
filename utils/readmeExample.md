@@ -1,6 +1,6 @@
-# SOME TITLE HERE   
+# Some Title Here   
   ## Description 
-  BIG DISCRIPTION HERE
+  Some Description Here
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
@@ -9,14 +9,14 @@
   - [Usage](#usage)
   - [License](#license)
   - [Contributing](#contributing)
-  
+  - [Tests](#tests)
   - [Questions](#questions)
 
   ## Installation 
-  NPM INSTALL
+  Details about packages used Here
 
   ## Usage
-  USAGE HERE
+  How to use this app here
 
   ## License
     
@@ -24,9 +24,10 @@
     
   
   ## Contributing
-  NO CONTRIBUTOR AT THE MOMENT
+  None
 
-  
+  ## Tests
+    none at the moment
 
   ## Questions
   - GitHub: [georgedmendoza](https://github.com/georgedmendoza)
