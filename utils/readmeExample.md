@@ -1,6 +1,6 @@
-# title here   
+# title   
   ## Description 
-  description here
+  none
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
@@ -13,19 +13,19 @@
   - [Questions](#questions)
 
   ## Installation 
-  install info
+  n/a
 
   ## Usage
-  n/
+  n/a
 
   ## License
   - [MIT](https://opensource.org/licenses/MIT) - click to view lincense information
   
   ## Contributing
-  n/a
+  none
 
   ## Tests
-  none at the moment
+  none right now
 
   ## Questions
   - GitHub: [username](https://github.com/username)

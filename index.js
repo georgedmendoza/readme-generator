@@ -129,6 +129,7 @@ function init() {
     .then(data => {
         // displays all data
         console.log(data);
+        //README.md
         writeToFile('README.md',generateMarkdown(data))
     })
 }
