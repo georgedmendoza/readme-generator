@@ -26,7 +26,7 @@
   https://drive.google.com/file/d/1bDN157qNQLvLSKP-rxodJnA-pZIBzIva/view?usp=sharing
   
   ## License
-  - [MIT](https://opensource.org/licenses/MIT) - click to view lincense information
+  - This project is under the [MIT](https://opensource.org/licenses/MIT) license. 
 
   ## Questions
   - Feel free to reach me via GitHub or Email with any questions regarding this project
